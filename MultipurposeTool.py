@@ -105,6 +105,7 @@ while True:
 
             # If data science user input is l
             elif data_command_input.upper() == "L":
+                # While list item is not empty string
                 while True:
                     add_input = input("Enter data to add to the list (empty to exit): ")
                     if add_input == empty_str:
