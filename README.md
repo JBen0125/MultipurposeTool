@@ -1,5 +1,4 @@
 # MultiPurposeTool
-# MultiPurposeTool
 
 This multipurpose tool is an user input based program, it has multiple purposes, hence it's name, 
 a few things that it can do include running the quadratic formula, ackermann's algorithm, handshaking 
