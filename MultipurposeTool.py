@@ -68,16 +68,19 @@ while True:
 
         # If MacOS
         if operate_sys == "darwin":
-            # Play error sound
+            # Play exit sound
             os.system('afplay /System/Library/Sounds/Funk.aiff&')
 
         # If Linux
         elif operate_sys == "linux" or operate_sys == "linux2":
-            pass
+            # Play exit sound
+            os.system('aplay sound2.wav&')
 
         # If Windows
         elif operate_sys == "win32":
+            # Play no sound
             pass
+
         # Exit the program
         break
 
